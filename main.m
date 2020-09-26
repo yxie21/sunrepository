@@ -1,6 +1,5 @@
 
 
-%% w dynamic
 
 %% calculate
 N=3; k=-0.75; eta=0.1; n=1;
@@ -21,14 +20,14 @@ set(gca,'FontSize',30);
 xlabel('Re[\omega]');
 ylabel('Im[\omega]');
 axis equal
-zlabel('กฯ\zeta/\pi');
+zlabel('ยกร\zeta/\pi');
 grid on;
 xlim([-1 1]);
 ylim([-1 1]);
 title(['n = ',num2str(n)],'FontSize',36);
 plotcircle();
-% view(0,0); % Re[\omega] vs กฯ\zeta
-% view(90,0) % Im[\omega] vs กฯ\zeta
+% view(0,0); % Re[\omega] vs ยกร\zeta
+% view(90,0) % Im[\omega] vs ยกร\zeta
 % view(0,90); % Re[\omega] vs Im[\omega] 
 view(30,15);
 

@@ -1,4 +1,4 @@
-close all;clear;clc;
+
 
 %% w dynamic
 
